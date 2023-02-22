@@ -2,11 +2,15 @@
 #include "main.h"
 
 /**
- *  * _isalpha - main func
- *   * Description: heho
- *    * @c: heho
- *     * Return: 0
+ *  * Prints the sign of a number.
+ *   *
+ *    * If the number is positive, prints '+'.
+ *     * If the number is negative, prints '-'.
+ *      * If the number is zero, prints '0'.
+ *       *
+ *        * @param n The number to check.
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
