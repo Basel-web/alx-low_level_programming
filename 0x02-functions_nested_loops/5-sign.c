@@ -2,13 +2,10 @@
 #include "main.h"
 
 /**
- *  * Prints the sign of a number.
- *   *
- *    * If the number is positive, prints '+'.
- *     * If the number is negative, prints '-'.
- *      * If the number is zero, prints '0'.
- *       *
- *        * @param n The number to check.
+ * * print_sign - hehe
+ * * Description: sign
+ * * @n: int n
+ * * Return: 0
  */
 
 int print_sign(int n)
