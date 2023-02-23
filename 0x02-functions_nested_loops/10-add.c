@@ -2,7 +2,9 @@
 #include"main.h"
 
 /**
- *  add - prints the alphabet in lowercase, followed by a new line
+ *  add - prints the sum of a and b
+ * @a
+ * @b
  */
 
 int add(int a, int b)
