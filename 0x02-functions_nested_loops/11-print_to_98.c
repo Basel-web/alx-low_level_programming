@@ -2,7 +2,7 @@
 #include"main.h"
 /**
  * print_to_98 - prints n to 98
- * @n n dsf
+ * @n:n dsf
  */
 
 void print_to_98(int n)
