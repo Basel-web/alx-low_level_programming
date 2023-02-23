@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  *  * main - tests the positive_or_negative function with a case of 0
  *   * Return: Always 0
