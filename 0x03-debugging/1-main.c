@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: Causes an infinite loop and then avoids it.
- *
- * Return: Always 0 (Success)
- */
+* main - causes an infinite loop
+* Return: 0
+*/
+
 int main(void)
 {
+<<<<<<< HEAD
 int i;
 
 printf("Infinite loop incoming :(\n");
@@ -26,4 +25,20 @@ i = 0;
 printf("Infinite loop avoided! \\o/\n");
 
 return (0);
+=======
+        int i;
+
+        printf("Infinite loop incoming :(\n");
+
+        i = 0;
+
+     /*   while (i < 10)
+        {
+                putchar(i);
+        }
+     */
+        printf("Infinite loop avoided! \\o/\n");
+
+        return (0);
+>>>>>>> c6dbae6c014b94fc6abcadec49d602950ce8f59b
 }
