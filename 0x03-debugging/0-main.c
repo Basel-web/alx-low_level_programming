@@ -9,7 +9,6 @@ int main(void)
 	int zero;
 	
 	zero = 0;
-
 	positive_or_negative(zero);
 
 	return (0);
