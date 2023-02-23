@@ -9,13 +9,28 @@ void print_to_98(int n)
 {
 	int i;
 
-	for (i = n; i < 99; i++)
+	/* first section*/
+	if (n > 98)
 	{
-		_putchar(i + '0');
-		if (i != 98)
+		for (i = n; i > 98; i--)
 		{
-		_putchar(',');
-		_putchar(' ');
+			printf("%d, ", i);
+			if (i != 98)
+				printf(", ");
 		}
+		printf("\n");
+	}
+	/* sec section*/
+	else if (n == 98)
+		printf("98\n");
+	else
+	{
+		for (i = n; i < 99; i++)
+		{
+			printf("%d", i);
+			if (i != 98)
+				printf(", ");
+		}
+		printf("\n");
 	}
 }
