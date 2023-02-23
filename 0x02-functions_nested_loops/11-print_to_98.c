@@ -3,6 +3,7 @@
 /**
  * print_to_98 - prints n to 98
  * @n var
+ * @return 
  */
 
 void print_to_98(int n)
@@ -12,7 +13,7 @@ void print_to_98(int n)
 	/* first section*/
 	if (n > 98)
 	{
-		for (i = n; i > 98; i--)
+		for (i = n; i > 97; i--)
 		{
 			printf("%d, ", i);
 			if (i != 98)
