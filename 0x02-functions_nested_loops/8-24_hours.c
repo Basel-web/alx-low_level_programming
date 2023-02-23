@@ -2,8 +2,8 @@
 #include"main.h"
 
 /**
- *  *  * void jack_bauer - Prints the last digit of a number.
- *   *   * Description: main fun
+ *  jack_bauer - Prints the last digit of a number.
+ *   Description: main fun
  *     *     * Return: 0
  */
 
